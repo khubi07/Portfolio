@@ -1,3 +1,17 @@
+ body{
+    background-color:white;
+ }
+ .custom-nav{
+    background-color: #8b597b;
+    
+ }
+ .custom-nav .navbar-brand,
+.custom-nav .nav-link {
+  color: #ffdec7; /* Set text color to white */
+}
+.custom-nav .nav-link.active {
+    color: #ffdec7; /* Ensure active link color is also white */
+  }
 .hero-sec{
     position: relative;
     height: 100vh;
@@ -35,3 +49,131 @@ h2{   /*not a class hence dont use . */
     color: darkgoldenrod;
 }
 
+.aboutbg{ /*container in mid of sction*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(bgimg.jpg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+.aboutbg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    border-radius:50% ;
+    
+    
+}
+.aboutbg .col-md-6{
+    /* display: flex; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    height: 100vh;
+}
+.Aname{
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    color: black;
+}
+.lead{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+#element{
+    color: rgb(147, 65, 6);
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .aboutbg img{
+        height: 50px;
+    }
+    .Aname{
+        font-size: 4rem;
+    }
+    .lead{
+        font-size: 2rem;
+    }
+}
+
+#Skill-Sets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.card{
+    background-color: rgb(247, 242, 237);
+}
+footer{
+    background-color: #493129;
+    height: 45px;
+}
+.footer{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.btn{
+    background-color: rgb(218, 128, 86);
+}
+
+#contact{
+    background-color:#c691b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.c-up{
+    color:#ffdec7;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.details{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.linkedin{
+    margin: 20px 20px;
+    border: solid 2px brown; 
+    display: inline-block;
+}
+.linkedin img {
+    width: 20px;
+    height: 15px;
+}
+.email{
+    margin: 20px 20px 20px 20px;
+    border: solid 2px brown; 
+    display: inline-block;
+}
+.email img {
+    width: 20px;
+    height: 20px;
+}
+.phone{
+    margin: 20px 20px;
+    border: solid 2px brown; 
+    display: inline-block;
+}
+.phone img {
+    width: 20px;
+    height: 15px;
+}
