@@ -1,8 +1,11 @@
  body{
-    background-color:white;
+    background-color:rgb(0, 0, 0);
+ }
+ hr{
+    color: #ffdec7;
  }
  .custom-nav{
-    background-color: #8b597b;
+    background-color: #493129;
     
  }
  .custom-nav .navbar-brand,
@@ -15,7 +18,7 @@
 .hero-sec{
     position: relative;
     height: 100vh;
-    background: url(bgimg.jpg) no-repeat center center/cover;
+    background: url(download.jpg) no-repeat center center/cover;
     color: white;
 }
 
@@ -54,7 +57,7 @@ h2{   /*not a class hence dont use . */
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(bgimg.jpg) no-repeat center center/cover;
+    background: url(download.jpg) no-repeat center center/cover;
     color: white;
     text-align: center;
 }
@@ -80,7 +83,7 @@ h2{   /*not a class hence dont use . */
     font-size: 5rem;
     font-weight: 100;
     margin-bottom: 1rem;
-    color: black;
+    color: #ffdec7;
 }
 .lead{
     font-size: 3rem;
@@ -88,7 +91,7 @@ h2{   /*not a class hence dont use . */
     color: black;
 }
 #element{
-    color: rgb(147, 65, 6);
+    color: rgb(241, 115, 25);
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -104,6 +107,7 @@ h2{   /*not a class hence dont use . */
 }
 
 #Skill-Sets{
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +135,7 @@ footer{
 }
 
 #contact{
-    background-color:#c691b5;
+    background-color:black;
     display: flex;
     justify-content: center;
     align-items: center;
