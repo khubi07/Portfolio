@@ -89,7 +89,7 @@ h2{   /*not a class hence dont use . */
 
 .text{
     font-size: 1.2rem;
-    font-family: ;
+    /* font-family: ; */
 }
 .Aname{
     font-size: 4rem;
