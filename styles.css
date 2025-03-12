@@ -5,21 +5,21 @@
     color: #ffdec7;
  }
  .custom-nav{
-    background-color: #493129;
+    background-color: #294149;
     
  }
  .custom-nav .navbar-brand,
 .custom-nav .nav-link {
-  color: #ffdec7; /* Set text color to white */
+  color: #faf5f2; /* Set text color to white */
 }
 .custom-nav .nav-link.active {
-    color: #ffdec7; /* Ensure active link color is also white */
+    color: #f7f2ee; /* Ensure active link color is also white */
   }
 .hero-sec{
     position: relative;
     height: 100vh;
-    background: url(download.jpg) no-repeat center center/cover;
-    color: white;
+    /* background: url(download.jpg) no-repeat center center/cover; */
+    background: linear-gradient(to right,#1d9bb2,#000000);
 }
 
 .hero-sec h1{
@@ -45,11 +45,11 @@
     text-decoration: underline;
     font-weight: bolder;
     font-size: Roboto;
-    color: chocolate;
+    color: rgb(167, 230, 228);
 }
 h2{   /*not a class hence dont use . */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkgoldenrod;
+    color: rgb(255, 252, 243);
 }
 
 .aboutbg{ /*container in mid of sction*/
@@ -57,7 +57,8 @@ h2{   /*not a class hence dont use . */
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(download.jpg) no-repeat center center/cover;
+    /* background: url(download.jpg) no-repeat center center/cover; */
+    background: linear-gradient(to right,#1d9bb2,#000000);
     color: white;
     text-align: center;
 }
@@ -79,19 +80,30 @@ h2{   /*not a class hence dont use . */
 #about{
     height: 100vh;
 }
+
+.about-me {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #f4eeec;
+}
+
+.text{
+    font-size: 1.2rem;
+    font-family: ;
+}
 .Aname{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 100;
     margin-bottom: 1rem;
-    color: #ffdec7;
+    color: #f3eeea;
 }
 .lead{
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: black;
+    color: rgb(241, 247, 251);
 }
 #element{
-    color: rgb(241, 115, 25);
+    color: rgb(199, 238, 241);
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -107,7 +119,7 @@ h2{   /*not a class hence dont use . */
 }
 
 #Skill-Sets{
-    background-color: black;
+    background:linear-gradient(to right,#1d9bb2,#000000);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +130,7 @@ h2{   /*not a class hence dont use . */
     background-color: rgb(247, 242, 237);
 }
 footer{
-    background-color: #493129;
+    background-color: #294149;
     height: 45px;
 }
 .footer{
@@ -130,12 +142,61 @@ footer{
 
 }
 
-.btn{
-    background-color: rgb(218, 128, 86);
+btn{
+    background-color: rgb(195, 229, 239);
 }
 
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 120px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+  
+  .button-64 span {
+    background-color: rgb(4, 47, 76);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  .button-64:hover span {
+    background: none;
+  }
+  
+ @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  } 
+
 #contact{
-    background-color:black;
+    background:linear-gradient(to right,#1d9bb2,#000000);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +206,7 @@ footer{
 
 
 .c-up{
-    color:#ffdec7;
+    color:#f9f6f4;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
@@ -156,7 +217,7 @@ footer{
 }
 .linkedin{
     margin: 20px 20px;
-    border: solid 2px brown; 
+    border: solid 2px rgb(42, 130, 165); 
     display: inline-block;
 }
 .linkedin img {
@@ -165,7 +226,7 @@ footer{
 }
 .email{
     margin: 20px 20px 20px 20px;
-    border: solid 2px brown; 
+    border: solid 2px rgb(108, 183, 212); 
     display: inline-block;
 }
 .email img {
@@ -174,7 +235,7 @@ footer{
 }
 .phone{
     margin: 20px 20px;
-    border: solid 2px brown; 
+    border: solid 2px rgb(42, 130, 165); 
     display: inline-block;
 }
 .phone img {
